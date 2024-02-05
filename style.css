@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700;900&display=swap');
+
+body {
+  background-color: #F6F9FC;
+  font-family: 'Lora', serif;
+  color: #575F7D;
+  font-size: 17px;
+}
+
+.container {
+  background:#F6F9FC;
+  border:#F6F9FC;
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  background:#FFFFFF;
+  border:#EBEEF1;
+  border-radius:4px;
+  box-shadow: 0px 4px 16px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 40px 40px;
+  margin: 20px 0px;
+}
+
+.button-purple {
+  background-color: #6C22A6;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+}
+.button-purple:hover {
+  background-color: black;
+}
+
+i {
+  font-size: 50px;
+}
+
+ul > li {
+  display: inline-block;
+  padding: 0px 20px;
+  margin: 17px 0px;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+p{
+  margin: 17px 0px 40px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  color: #6C22A6;
+  font-size: 32px;
+}
+
+h2 {
+  color: #83C0C1;
+  font-size: 16px;
+}
+
+h3 {
+  color: #83C0C1;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #96E9C6;
+}
+
+.social-img:hover {
+  color: black;
+}
